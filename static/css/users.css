@@ -1,0 +1,43 @@
+* {
+	cursor: default;
+}
+
+dd {
+	padding-left: 1em;
+}
+
+p {
+	font-weight: 600;
+}
+
+p > span {
+	font-weight: 100;
+}
+
+dl:first-of-type {
+	border-top: .1em solid black;
+}
+
+h1 {
+	text-align: center;
+}
+
+.edit-field {
+	cursor: pointer;
+}
+	.edit-field:hover {
+		color: lightsteelblue;
+	}
+
+.users {
+	margin:  1em;
+	border-bottom: .1em solid black;
+	text-align:  center;
+}
+	/*.users:last-of-type {
+		border-bottom:  none;
+	}*/
+
+#user-create-form {
+	text-align: center;
+}
