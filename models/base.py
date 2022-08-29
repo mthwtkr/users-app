@@ -21,15 +21,15 @@ class BaseModel():
 		
 		return db.session.commit()
 
-	def update(self, changes):
-		self._setAttrs(changes)
-
-		return db.session.commit()
-
 	def delete(self):
 
 		db.session.delete(self)
 		
+		return db.session.commit()
+
+	def update(self, changes):
+		self._setAttrs(changes)
+
 		return db.session.commit()
 
 	def __repr__(self):
